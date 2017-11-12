@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BitMoney</string>
+    <string name="home">Welcome</string>
+
+    <string name="start">Get Started</string>
+    <string name="content"> You are a click away from getting bitcoin amount in your currency.
+    Click Get Started!!!</string>
+
+
+    <string name="price">Price</string>
+    <string name="currency">Currency</string>
+</resources>

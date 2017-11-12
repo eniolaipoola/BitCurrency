@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/eth"
+        android:layout_width="wrap_content"
+        android:textAllCaps="true"
+        android:text="ETH"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_below="@+id/eth"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/currency"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/currency"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:hint="@string/price"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btc"
+        android:layout_width="wrap_content"
+        android:textAllCaps="true"
+        android:text="BTC"
+        android:layout_below="@+id/ll1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_below="@+id/btc"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/currency2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/currency"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/price2"
+            android:hint="@string/price"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>
